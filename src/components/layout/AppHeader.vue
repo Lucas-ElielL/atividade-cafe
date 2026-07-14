@@ -4,7 +4,10 @@ import { RouterLink } from 'vue-router'
 
 <template>
   <header>
-    <h1>COFFEE QUALITY <br>CHALLENGE</h1>
+    <div>
+      <img src="../../../public/Coffe-cafe-logo-by-DEEMKA-STUDIO-4(Creative-Fabrica).jpg" width="200px">
+      <h1>COFFEE QUALITY <br>CHALLENGE</h1>
+    </div>
     <div class="wrapper">
       <nav>
         <RouterLink to="/">Home</RouterLink>
@@ -25,5 +28,9 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+div {
+  display: flex;
+  align-items: center;
 }
 </style>
