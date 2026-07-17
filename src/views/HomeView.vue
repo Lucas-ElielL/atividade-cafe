@@ -36,8 +36,11 @@
         <p>25/05/2025 14:32</p>
       </div>
     </section>
+    <div class="footer">
+      <img src="/megafone.png" alt="">
+      <p><span>Participe e Faça a Diferança!</span></p>
+    </div>
   </main>
-
 </template>
 
 <style scoped>
