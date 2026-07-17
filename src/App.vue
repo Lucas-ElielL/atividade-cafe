@@ -1,22 +1,13 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
+import { RouterView } from 'vue-router'
+import AppHeader from './components/layout/AppHeader.vue'
 </script>
 
 <template>
-  <header>
-
-    <div class="wrapper">
-
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/avaliacao">Avaliação</RouterLink>
-        <RouterLink to="/ranking">Ranking</RouterLink>
-      </nav>
-    </div>
-  </header>
-
+ <AppHeader />
   <RouterView />
 </template>
 
 <style scoped>
+
 </style>
