@@ -38,7 +38,12 @@
     </section>
     <div class="footer">
       <img src="/megafone.png" alt="">
-      <p><span>Participe e Faça a Diferança!</span></p>
+      <div>
+        <p><span>Participe e Faça a Diferança!</span></p>
+        <p>
+          Cada avaliação ajuda a reconhecer o trabalho dos produtores e a valorizar café de qualidade.
+        </p>
+      </div>
     </div>
   </main>
 </template>
@@ -104,4 +109,17 @@ main {
   font-weight: bold;
   color:brown;
 }
+.footer {
+  display: flex;
+  align-items: last baseline;
+  gap: 30px;
+}
+.footer p {
+  font-size: 1.1rem;
+}
+.footer span {
+  font-weight: bold;
+  font-size: 1.7rem;
+}
+
 </style>
