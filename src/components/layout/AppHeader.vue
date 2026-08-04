@@ -30,7 +30,7 @@ header {
   padding: 2vw;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  border: solid 2px #9e9e9e;
+  border: solid 3px #bbbbbb;
   display: flex;
   align-items: center;
   justify-content: space-between;
