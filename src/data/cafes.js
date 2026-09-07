@@ -40,3 +40,4 @@ const cafes = [
     produtor: 'Fazenda Monte Alegre'
   }
 ]
+export { cafes };

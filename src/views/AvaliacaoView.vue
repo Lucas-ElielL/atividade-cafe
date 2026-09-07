@@ -1,4 +1,5 @@
 <script setup>
+import { cafes } from '@/data/cafes';
 </script>
 <template>
   <main>
@@ -36,6 +37,21 @@
       <p>Média Calculada: 0.0</p>
       <button type="submit">Salvar Avaliação</button>
     </form>
+  </section>
+  <section>
+    <h3>Cafés avaliados</h3>
+    <p>Total de registros: {{ cafes.length }}</p>
+    <ul>
+      <li v-for="cafe in cafes" :key="cafe.id">
+        <h4>Nome: {{ cafe.nome }}</h4>
+        <p><span>Produtor: {{ cafe.produtor }}</span></p>
+        <p>Aroma: {{ cafe.aroma }}</p>
+        <p>Doçura: {{ cafe.docura }}</p>
+        <p>Acidez: {{ cafe.acidez }}</p>
+        <p>Corpo: {{ cafe.corpo }}</p>
+        <p>Finalização: {{ cafe.finalizacao }}</p>
+      </li>
+    </ul>
   </section>
   </main>
 </template>
